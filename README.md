@@ -1,17 +1,11 @@
-Here's a well-structured README template for your NodeJS NYX Cipher Backend App:
 
----
 
 # **NodeJS NYX Cipher Backend App**
 
 This is the backend API for currency conversion using the `currencylayer` API to convert between various cryptocurrencies and fiat currencies.
 
 ## **Technologies Used**
-
-- **Node.js**: JavaScript runtime for building the backend.
-- **Express.js**: Web framework for Node.js.
 - **Axios**: Promise-based HTTP client for making API requests.
-- **dotenv**: Loads environment variables from a `.env` file into `process.env`.
 
 ## **Features**
 
@@ -37,14 +31,6 @@ cd nyx-cipher-backend
 npm install
 ```
 
-### **3. Set Up Environment Variables**
-
-Create a `.env` file in the root of your project and add the following variables:
-
-```env
-API_KEY=your_currencylayer_api_key
-BASE_URL=http://apilayer.net/api/live
-```
 
 Make sure you replace `your_currencylayer_api_key` with a valid API key from [currencylayer](https://currencylayer.com).
 
@@ -99,25 +85,3 @@ This will return the conversion rate of 1 `from` currency to the `to` currency.
   "error": "Missing required parameters: from, to"
 }
 ```
-
-## **Contributing**
-
-If you'd like to contribute to the development of this project:
-
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes.
-4. Push to the branch.
-5. Open a pull request.
-
-## **License**
-
-This project is licensed under the MIT License.
-
----
-
-### Notes:
-- The `.env` file should **never** be committed to version control. Add `.env` to your `.gitignore` to prevent it from being pushed to the repository.
-- This README assumes that the user has a valid `currencylayer` API key and the necessary environment setup.
-
-Let me know if you'd like to modify or add any additional sections!
