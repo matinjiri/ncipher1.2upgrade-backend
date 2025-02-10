@@ -19,7 +19,7 @@ This is the backend API for currency conversion using the `currencylayer` API to
 Clone this repository to your local machine.
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/matinjiri/ncipher1.2upgrade-backend
 ```
 
 ### **2. Install Dependencies**
