@@ -31,10 +31,7 @@ cd nyx-cipher-backend
 npm install
 ```
 
-
-Make sure you replace `your_currencylayer_api_key` with a valid API key from [currencylayer](https://currencylayer.com).
-
-### **4. Start the Application**
+### **3. Start the Application**
 
 Run the app using the following command:
 
